@@ -1,14 +1,117 @@
 <html>
     <head>
         <title>html</title>
+        <style>
+            body{
+                margin-left:250px;
+                margin-right:250px;
+                margin-top: 70px;
+            }
+            .is{
+                float: right;
+            }
+            input{
+                padding: 10px 16px;
+                 border-color: solid rgb(82, 81, 81);
+            }
+            button{
+                padding: 12px 20px;
+                background-color: rgb(39, 35, 35);
+                color: white;
+                cursor: pointer;
+                border: none;
+                  }
+            button:hover{
+                background-color: darkorange;
+            }
+            ul {
+            overflow: auto;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(22, 19, 19);
+            }
+            li{
+                float: left;
+                border-right: 1px solid black;
+            }
+            li a{
+                padding: 14px 16px;
+                text-align:center;
+                color:white;
+                display:block;
+                text-decoration: none;
 
+            }
+            li a:hover{
+                background-color: orange;
+            }
+            .active{
+                background-color: orange;
+            }
+
+            .centered {
+                 position:absolute;
+                 color:white;
+                 font-weight: bold;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 text-align: center;
+
+  
+            }
+.bottom{
+    color:black;
+    position:absolute;
+    top:55%;
+    left:50%;
+    
+}
+.grid{
+    font-family:'texgyreadventorregular' ;
+    display: inline;
+    padding:10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+h5{
+    padding: 10px;
+    font-size: 18px;
+}
+.new{
+    margin-left: -15px;
+    display: inline-block;
+    font-size: 1.4em;
+    font-family:'texgyreadventorregular' ;
+    position: relative;
+}
+        </style>
+           
     </head>
     <body>
-        <h1>hll</h1>
-        <h2>hll</h2>
-        <h3>hll</h3>
-        <h4>hll</h4>
-        <h5>hll</h5>
+        <img src="https://www.ignit.in/images/ig_logo.png" alt="">
+    <div class="is">
+        <input type="text" placeholder="Enter Text Here"><button>Search</button>
+    </div>
+    <ul>
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
     
+    </ul>
+    <img src="https://www.ignit.in/images/234.jpg" width="1019.2px" height="400px" alt="">
+    <div class="centered">
+    <h1 >INTRODUCTORY PROGRAM</h1>
+    <P>This program is designed for students who wish to experience the course. Students get a hands on experience in application development.</P>
+</div>
+<div class="grid">
+<div><img class="new" src="https://www.ignit.in/images/IMG1.png" alt=""><h4>TRAIN WITH PROFESSIONALS</h4></div>
+<div><img class="new" src="https://www.ignit.in/images/IMG2.png" alt=""><h4>AUTHOR AN APP OF YOUR OWN</h4></div>
+<div><img class="new" src="https://www.ignit.in/images/IMG3.png" alt=""><h4>WORK ON COMMISIONED PROJECTS</h4></div>
+<div><img class="new" src="https://www.ignit.in/images/IMG4.png" alt=""><h4>CONTEMPORARY SYLLABUS</h4></div>
+</div>
     </body>
 </html>
